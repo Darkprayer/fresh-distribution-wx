@@ -1,0 +1,26 @@
+<view class="container">
+  <scroll-view>
+    <view class="poster">
+      <image src="../../images/index/poster.png"></image>
+    </view>
+    <view class="content__friend">
+      <text class="index-text">请朋友们点餐</text>
+
+      <view class="photo-flex">
+        <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+          <image src="../../images/index/index_coffeeOnMe.png" class="index-photo"></image>
+          <text class="content-text">@all 雪糕冷饮</text>
+        </view>
+        <view class="photo-box" bindtap="bindViewCoffeeOnMe">
+          <image src="../../images/index/index_wellDone.png" class="index-photo"></image>
+          <text class="content-text">@all 品尝美食</text>
+        </view>
+      </view>
+    </view>
+    <view class="buyhistory">
+      <image class="buyhistory-icon" src="../../images/icons/buyhistory.png"></image>
+      <text class="buyhistory-text"> 购买历史</text>
+      <view class="line"></view>
+    </view>
+  </scroll-view>
+</view>

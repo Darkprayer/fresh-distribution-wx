@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods/goods",
+    "pages/detail/detail",
+    "pages/order/order",
+    "pages/cart/cart",
+    "pages/confirm/confirm",
+    "pages/mine/mine",
+    "pages/address/address",
+    "pages/addressEdit/addressEdit"
+  ],
+  "tabBar": {
+    "color": "#878787",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "backgroundColor": "#fcfcfc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabBar/icon_home.png",
+        "selectedIconPath": "images/tabBar/icon_home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "iconPath": "images/tabBar/icon_mine.png",
+        "selectedIconPath": "images/tabBar/icon_mine_selected.png",
+        "text": "商品"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "images/tabBar/icon_mine.png",
+        "selectedIconPath": "images/tabBar/icon_mine_selected.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/tabBar/icon_mine.png",
+        "selectedIconPath": "images/tabBar/icon_mine_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F9F9F9",
+    "navigationBarTitleText": "最鲜送-城市冷链配送专家",
+    "navigationBarTextStyle": "black"
+  }
+}

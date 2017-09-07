@@ -1,0 +1,13 @@
+bower_components/
+node_modules/
+.DS_Store
+.gradle
+.idea
+.metadata
+*.iml
+*.ipr
+*.iws
+explorer-core/target/
+explorer-data/target/
+explorer-web-rest/target/
+explorer-web/target/
